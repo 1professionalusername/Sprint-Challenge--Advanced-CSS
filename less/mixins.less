@@ -1,1 +1,25 @@
 // Mixins Here
+
+.mixin1(){
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mixin2(){
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.button(@height: 40px; @width: 100px){
+    background-color: @btn-bg-color;
+    height: @height;
+    width: @width;
+    border-radius: 9px;
+    font-size: 18px;
+    color: white;
+}
